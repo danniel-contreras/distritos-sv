@@ -1,0 +1,31 @@
+{
+  "name": "distritos-sv",
+  "version": "1.4.0",
+  "description": "Librería para obtener departamentos, municipios y distritos de El Salvador.",
+  "keywords": [
+    "elsalvador",
+    "sv",
+    "departamentos",
+    "municipios",
+    "distritos",
+    "direccion",
+    "address"
+  ],
+  "author": "Daniel Contreras",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
